@@ -10,7 +10,6 @@ const styles = StyleSheet.create({
     width: 30
   },
   viewcontatos: {
-    marginTop: 40,
     height: 40,
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -76,7 +75,12 @@ const styles = StyleSheet.create({
     color: '#666',
     marginTop: 5,
   },
+  list_button: {
+    flexDirection: 'row',
+  }
 });
+
+  
 
 export default styles;
 
